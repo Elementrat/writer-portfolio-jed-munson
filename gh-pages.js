@@ -12,6 +12,11 @@ publish(
   dotfiles: true
   },
   (e) => {
-   console.log('Deploy Complete!', e);
+    if(e){
+        console.error('Error during deploy:', e);
+    }
+    else{
+        console.log('Deploy Complete!');
+    }
   }
 );
