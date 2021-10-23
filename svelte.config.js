@@ -9,12 +9,12 @@ const config = {
 	kit: {
 		target: '#svelte',
 		paths: {
-			base: dev ? '' : '/jed-munson-portfolio',
+			base: dev ? '' : '/writer-portfolio-jed-munson',
 		},
 		adapter: adapter({
 			// default options are shown
-			pages: '.svelte-kit/static/build',
-			assets: '.svelte-kit/static/build',
+			pages: 'build',
+			assets: 'build',
 			fallback: null
 		})
 	}
