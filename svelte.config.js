@@ -9,7 +9,7 @@ const config = {
 	kit: {
 		target: '#svelte',
 		paths: {
-			base: dev ? '' : '/writer-portfolio-jed-munson',
+			base: dev ? '' : '',
 		},
 		adapter: adapter({
 			// default options are shown

@@ -22,7 +22,7 @@
 		display: flex;
 	}
 	.bio-image {
-		background-image: url('portfolio-pic.jpg');
+		background-image: url('../img/portfolio-pic.jpg');
 		background-repeat: no-repeat;
 		background-size: 140%;
 		background-position: -25px;
@@ -34,7 +34,7 @@
 	}
 
 	.featured-image {
-		background-image: url('newsflash-cover.jpg');
+		background-image: url('../img/newsflash-cover.jpg');
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;
