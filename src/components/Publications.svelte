@@ -51,7 +51,7 @@
 			]
 		},
 		{
-			title: 'Essay',
+			title: 'Essays',
 			publications: [
 				{
 					title: `You Were There [Bat City Review, forthcoming]`,
@@ -61,12 +61,12 @@
 				{
 					title: `Two Views on Encounter and Impasse [Full Stop, forthcoming]`,
 					url: ``,
-					date: `2022`
+					date: `2021`
 				},
 				{
 					title: `Love in the Korean Demilitarized Zone [Full Stop]`,
 					url: `https://www.full-stop.net/2021/07/16/features/essays/jed-munson/love-in-the-korean-demilitarized-zone/`,
-					date: `2022`
+					date: `2021`
 				}
 			]
 		},
@@ -146,6 +146,8 @@
 			years
 		};
 	});
+
+	console.log('__SEC', sections);
 </script>
 
 {#each sections as section}
@@ -153,7 +155,7 @@
 		<h3 class="section-title">
 			{section.title}
 		</h3>
-		{#each Object.keys(section.years) as year}
+		{#each Object.keys(section.years).sort((a, b) => b - a) as year}
 			<h4>{year}</h4>
 			<ul>
 				{#each section.years[year] as publication}
