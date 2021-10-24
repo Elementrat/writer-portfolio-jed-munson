@@ -146,8 +146,6 @@
 			years
 		};
 	});
-
-	console.log('__SEC', sections);
 </script>
 
 {#each sections as section}
@@ -155,7 +153,7 @@
 		<h3 class="section-title">
 			{section.title}
 		</h3>
-		{#each Object.keys(section.years).sort((a, b) => b - a) as year}
+		{#each Object.keys(section.years).sort((a, b) => Number(b) - Number(a)) as year}
 			<h4>{year}</h4>
 			<ul>
 				{#each section.years[year] as publication}
