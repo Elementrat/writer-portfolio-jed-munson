@@ -24,11 +24,6 @@
 					date: `2021`
 				},
 				{
-					title: `Six Silts [A)GLIMPSE)OF), forthcoming]`,
-					url: ``,
-					date: `2021`
-				},
-				{
 					title: `Minesweeper & others [Conjunctions]`,
 					url: `http://www.conjunctions.com/online/article/jed-munson-10-20-2021`,
 					date: `2021`
