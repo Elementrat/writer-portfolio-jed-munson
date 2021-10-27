@@ -14,6 +14,11 @@
 			title: 'Poems',
 			publications: [
 				{
+					title: `Six Silts [A)GLIMPSE)OF)]`,
+					url: `https://aglimpseof.net/2021/10/26/the-symbiosis-issue-jed-munson/`,
+					date: `2021`
+				},
+				{
 					title: `Leveler [Zone 3, forthcoming]`,
 					url: ``,
 					date: `2021`
