@@ -14,7 +14,10 @@
 		target="_blank"
 		class="featured-image"
 	/>
-	<div class="caption">Cover by Ainee Lee</div>
+	<div class="caption">
+		Design by
+		<a href="https://aineejeong.com/" target="_blank"> Ainee Jeong </a>
+	</div>
 </div>
 
 <style>
