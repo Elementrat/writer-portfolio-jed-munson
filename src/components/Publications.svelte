@@ -14,6 +14,11 @@
 			title: 'Poems',
 			publications: [
 				{
+					title: `G-D & Semblance of Rigor [The Quarterless Review]`,
+					url: `https://thequarterlessreview.com/Jed-Munson`,
+					date: `2021`
+				},
+				{
 					title: `Six Silts [A)GLIMPSE)OF)]`,
 					url: `https://aglimpseof.net/2021/10/26/the-symbiosis-issue-jed-munson/`,
 					date: `2021`
