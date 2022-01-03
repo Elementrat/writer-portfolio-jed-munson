@@ -1,6 +1,5 @@
 <div class="footer">
 	<div class="contact">
-		<h3>contact</h3>
 		<a href="mailto:munsonjed@gmail.com">munsonjed[at]gmail.com</a>
 	</div>
 </div>

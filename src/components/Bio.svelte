@@ -4,9 +4,8 @@
 <div class="bio">
 	<div class="bio-image" alt="Jed Munson Profile" />
 	<div class="caption">Photo by Keum-ji Son</div>
-	Jed Munson is a Fulbright scholar to South Korea. His chapbook, Newsflash Under Fire, Over the Shoulder,
-	is forthcoming with Ugly Duckling Presse. His poems, reviews, and essays have appeared in Conjunctions,
-	Full Stop, the Chicago Review of Books, and others.
+	Jed is a Korean American writer and editor from Wisconsin. He works at the Library of America and studies
+	at Brooklyn College.
 
 	<!-- svelte-ignore a11y-missing-content -->
 	<a
