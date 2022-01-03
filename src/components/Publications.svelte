@@ -14,6 +14,11 @@
 			title: 'Poems',
 			publications: [
 				{
+					title: `Five Silts [Annulet: A Journal of Poetics]`,
+					url: `https://annuletpoeticsjournal.com/Jed-Munson-from-Silts`,
+					date: `2022`
+				},
+				{
 					title: `G-D & Semblance of Rigor [The Quarterless Review]`,
 					url: `https://thequarterlessreview.com/Jed-Munson`,
 					date: `2021`
