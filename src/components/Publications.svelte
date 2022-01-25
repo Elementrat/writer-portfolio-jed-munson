@@ -70,8 +70,8 @@
 				},
 				{
 					title: `Two Views on Encounter and Impasse [Full Stop, forthcoming]`,
-					url: ``,
-					date: `2021`
+					url: `https://www.full-stop.net/2022/01/25/features/essays/jed-munson/two-views-on-encounter-and-impasse/`,
+					date: `2022`
 				},
 				{
 					title: `Love in the Korean Demilitarized Zone [Full Stop]`,
