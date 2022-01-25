@@ -69,7 +69,7 @@
 					date: `2022`
 				},
 				{
-					title: `Two Views on Encounter and Impasse [Full Stop, forthcoming]`,
+					title: `Two Views on Encounter and Impasse [Full Stop]`,
 					url: `https://www.full-stop.net/2022/01/25/features/essays/jed-munson/two-views-on-encounter-and-impasse/`,
 					date: `2022`
 				},
