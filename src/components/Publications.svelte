@@ -119,9 +119,14 @@
 			title: 'Interviews',
 			publications: [
 				{
+					title: `Louise Akers on Alien Year [Full Stop]`,
+					url: `https://www.full-stop.net/2022/01/27/interviews/jed-munson/louise-akers/`,
+					date: `2022`
+				},
+				{
 					title: `In Conversation with Lewis Freedman [Full Stop, forthcoming]`,
 					url: ``,
-					date: `2021`
+					date: `2022`
 				},
 				{
 					title: `David Karashima on Who We’re Reading When We’re Reading Murakami [Full Stop]`,
