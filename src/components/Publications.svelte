@@ -14,6 +14,11 @@
 			title: 'Poems',
 			publications: [
 				{
+					title: `Nine Silts [Mitos Magazín]`,
+					url: `https://mitosmag.squarespace.com/aguas/nine-silts`,
+					date: `2022`
+				},
+				{
 					title: `Five Silts [Annulet: A Journal of Poetics]`,
 					url: `https://annuletpoeticsjournal.com/Jed-Munson-from-Silts`,
 					date: `2022`
