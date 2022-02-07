@@ -6,7 +6,7 @@
 				{
 					title: `Newsflash Under Fire, Over the Shoulder [Ugly Duckling Presse]`,
 					url: `https://uglyducklingpresse.org/publications/newsflash-under-fire-over-the-shoulder/`,
-					date: '2022'
+					date: '2021'
 				},
 				{
 					title: `Silts [above/ground press, forthcoming]`,
