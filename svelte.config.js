@@ -7,7 +7,6 @@ const dev = process.env.NODE_ENV === 'development';
 const config = {
 	preprocess: preprocess(),
 	kit: {
-		target: '#svelte',
 		paths: {
 			base: dev ? '' : '',
 		},
