@@ -1,0 +1,52 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-e938b91d.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor-87b639d8.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/runtime/components/layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/index.svelte"
+    ]
+  },
+  ".svelte-kit/runtime/components/layout.svelte": {
+    "file": "layout.svelte-4c973516.js",
+    "src": ".svelte-kit/runtime/components/layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-87b639d8.js"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-b474ba86.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-87b639d8.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-4ca208b6.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-87b639d8.js"
+    ],
+    "css": [
+      "assets/pages/index.svelte-e48c4ea9.css"
+    ],
+    "assets": [
+      "assets/portfolio-pic-e464c7e1.jpg",
+      "assets/newsflash-cover-9190f90c.jpg"
+    ]
+  },
+  "_vendor-87b639d8.js": {
+    "file": "chunks/vendor-87b639d8.js"
+  }
+}
