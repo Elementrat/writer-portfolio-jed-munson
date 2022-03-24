@@ -74,8 +74,8 @@
 			title: 'Essays',
 			publications: [
 				{
-					title: `You Were There [Bat City Review, forthcoming]`,
-					url: ``,
+					title: `You Were There [Bat City Review]`,
+					url: `http://www.batcityreview.org/issue-18`,
 					date: `2022`
 				},
 				{
