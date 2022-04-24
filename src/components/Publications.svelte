@@ -39,9 +39,9 @@
 					date: `2021`
 				},
 				{
-					title: `Leveler [Zone 3, forthcoming]`,
-					url: ``,
-					date: `2021`
+					title: `Leveler [Zone 3]`,
+					url: `https://www.zone3press.com/issues/show/fall-2021`,
+					date: `2022`
 				},
 				{
 					title: `Minesweeper & others [Conjunctions]`,
