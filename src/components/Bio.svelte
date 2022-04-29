@@ -3,9 +3,16 @@
 
 <div class="bio">
 	<div class="bio-image" alt="Jed Munson Profile" />
-	<div class="caption">Photo by Keum-ji Son</div>
-	Jed is a Korean American writer and editor from Wisconsin. He works at the Library of America and studies
-	at Brooklyn College.
+	<div class="bio-text">
+		I'm a Korean American writer and editor from Wisconsin. I graduated from Wesleyan in 2019 and
+		did a Fulbright in South Korea in 2021. Right now I'm a fellow at the Library of America and a
+		student at Brooklyn College, where I help with <a
+			href="https://www.bkreview.org/category/poetry/"
+			target="_blank">The Brooklyn Review.</a
+		>
+
+		Always open to collaborations!
+	</div>
 
 	<!-- svelte-ignore a11y-missing-content -->
 	<a
@@ -24,15 +31,23 @@
 		display: flex;
 	}
 	.bio-image {
-		background-image: url('../img/portfolio-pic.jpg');
+		background-image: url('../img/jed-.jpeg');
 		background-repeat: no-repeat;
-		background-size: 140%;
-		background-position: -25px;
+		background-size: contain;
+		background-position: center;
 		width: 100%;
-		height: 259px;
+		height: 410px;
+		margin: 0px auto;
 		margin-bottom: 10px;
 		max-width: 500px;
-		margin: 0px auto;
+	}
+
+	.bio-text {
+		text-align: start;
+	}
+
+	.bio-text a {
+		font-style: italic;
 	}
 
 	.featured-image {
