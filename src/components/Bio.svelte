@@ -2,16 +2,12 @@
 </script>
 
 <div class="bio">
-	<div class="bio-image" alt="Jed Munson Profile" />
-	<div class="bio-text">
-		I'm a Korean American writer and editor from Wisconsin. I graduated from Wesleyan in 2019 and
-		did a Fulbright in South Korea in 2021. Right now I'm a fellow at the Library of America and a
-		student at Brooklyn College, where I help with <a
-			href="https://www.bkreview.org/category/poetry/"
-			target="_blank">The Brooklyn Review.</a
-		>
+	<!-- svelte-ignore a11y-missing-content -->
+	<a href="" target="_blank" class="featured-image silts" />
 
-		Always open to collaborations!
+	<div class="caption">
+		Cover by
+		<a href="https://aineejeong.com/" target="_blank">Q</a>
 	</div>
 
 	<!-- svelte-ignore a11y-missing-content -->
@@ -22,7 +18,19 @@
 	/>
 	<div class="caption">
 		Design by
-		<a href="https://aineejeong.com/" target="_blank"> Ainee Jeong </a>
+		<a href="" target="_blank"> Ainee Jeong </a>
+	</div>
+
+	<div class="bio-image" alt="Jed Munson Profile" />
+	<div class="bio-text">
+		I'm a Korean American writer and editor from Wisconsin. I graduated from Wesleyan in 2019 and
+		did a Fulbright in South Korea in 2021. Right now I'm a fellow at the Library of America and a
+		student at Brooklyn College, where I help with <a
+			href="https://www.bkreview.org/category/poetry/"
+			target="_blank">The Brooklyn Review.</a
+		>
+
+		Always open to collaborations!
 	</div>
 </div>
 
@@ -59,6 +67,10 @@
 		height: 470px;
 		max-width: 500px;
 		margin-top: 25px;
+	}
+
+	.silts {
+		background-image: url('../img/silts.png');
 	}
 
 	.caption {
