@@ -3,12 +3,9 @@
 
 <div class="bio">
 	<!-- svelte-ignore a11y-missing-content -->
-	<a href="" target="_blank" class="featured-image silts" />
+	<a href="https://abovegroundpress.blogspot.com/" target="_blank" class="featured-image silts" />
 
-	<div class="caption">
-		Cover by
-		<a href="https://aineejeong.com/" target="_blank">Q</a>
-	</div>
+	<div class="caption">Design by Kyuwon Kim</div>
 
 	<!-- svelte-ignore a11y-missing-content -->
 	<a

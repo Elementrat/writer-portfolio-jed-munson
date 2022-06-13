@@ -19,6 +19,26 @@
 			title: 'Poems',
 			publications: [
 				{
+					title: `Symposium in the Trees [Oxford Review of Books]`,
+					url: `https://www.the-orb.org/post/symposium-in-the-trees`,
+					date: `2022`
+				},
+				{
+					title: `Chinese Water Torture Cell & Others [Vestiges, forthcoming]`,
+					url: ``,
+					date: `2022`
+				},
+				{
+					title: `Continuously Variable Transmission & One Such Parochial View [Dream Pop Journal, forthcoming]`,
+					url: ``,
+					date: `2022`
+				},
+				{
+					title: `Two sonnets [Image Journal, forthcoming]`,
+					url: ``,
+					date: `2022`
+				},
+				{
 					title: `Nine Silts [Mitos Magazín]`,
 					url: `https://mitosmag.squarespace.com/aguas/nine-silts`,
 					date: `2022`
@@ -73,6 +93,11 @@
 		{
 			title: 'Essays',
 			publications: [
+				{
+					title: `A Personal Statement to My Understanding [Afternoon visitor, forthcoming]`,
+					url: `http://www.batcityreview.org/issue-18`,
+					date: `2022`
+				},
 				{
 					title: `You Were There [Bat City Review]`,
 					url: `http://www.batcityreview.org/issue-18`,
