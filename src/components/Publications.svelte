@@ -9,8 +9,8 @@
 					date: '2021'
 				},
 				{
-					title: `Silts [above/ground press, forthcoming]`,
-					url: `https://abovegroundpress.blogspot.com/`,
+					title: `Silts [above/ground press]`,
+					url: `https://abovegroundpress.blogspot.com/2022/06/new-from-aboveground-press-silts-by-jed.html`,
 					date: '2022'
 				}
 			]
