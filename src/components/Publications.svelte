@@ -94,8 +94,8 @@
 			title: 'Essays',
 			publications: [
 				{
-					title: `A Personal Statement to My Understanding [Afternoon visitor, forthcoming]`,
-					url: `http://www.batcityreview.org/issue-18`,
+					title: `A Personal Statement to My Understanding [Afternoon visitor]`,
+					url: `https://www.afternoonvisitor.com/jed-munson`,
 					date: `2022`
 				},
 				{
