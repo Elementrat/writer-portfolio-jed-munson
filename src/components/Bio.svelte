@@ -36,13 +36,13 @@
 		display: flex;
 	}
 	.bio-image {
-		background-image: url('../img/jed-.jpeg');
+		background-image: url('../img/jed_munson_profile.jpeg');
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-position: center;
 		width: 100%;
-		height: 410px;
-		margin: 0px auto;
+		height: 300px;
+		margin: 10px auto;
 		margin-bottom: 10px;
 		max-width: 500px;
 	}
