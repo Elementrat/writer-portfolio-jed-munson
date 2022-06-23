@@ -19,6 +19,10 @@
 	</div>
 
 	<div class="bio-image" alt="Jed Munson Profile" />
+	<div class="caption">
+		Photo by
+		<a href="" target="_blank"> Keumji Son </a>
+	</div>
 	<div class="bio-text">
 		I'm a Korean American writer and editor from Wisconsin. I graduated from Wesleyan in 2019 and
 		did a Fulbright in South Korea in 2021. Right now I'm a fellow at the Library of America and a
