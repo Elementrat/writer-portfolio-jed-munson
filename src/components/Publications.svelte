@@ -4,6 +4,16 @@
 			title: 'Chapbooks',
 			publications: [
 				{
+					title: `Commentary on the Birds [Rescue Press, forthcoming]`,
+					url: `https://rescuepress.co/news/open-reading-period-selections`,
+					date: '2023'
+				}
+			]
+		},
+		{
+			title: 'Chapbooks',
+			publications: [
+				{
 					title: `Newsflash Under Fire, Over the Shoulder [Ugly Duckling Presse]`,
 					url: `https://uglyducklingpresse.org/publications/newsflash-under-fire-over-the-shoulder/`,
 					date: '2021'
