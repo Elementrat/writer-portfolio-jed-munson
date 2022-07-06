@@ -1,7 +1,7 @@
 <script>
 	let sections = [
 		{
-			title: 'Collections',
+			title: 'Collection',
 			publications: [
 				{
 					title: `Commentary on the Birds [Rescue Press, forthcoming]`,
