@@ -104,6 +104,11 @@
 			title: 'Essays',
 			publications: [
 				{
+					title: `On Silts [periodicities: a journal of poetry and poetics]`,
+					url: `https://periodicityjournal.blogspot.com/2022/07/jed-munson-on-silts.html`,
+					date: `2022`
+				},
+				{
 					title: `A Personal Statement to My Understanding [Afternoon visitor]`,
 					url: `https://www.afternoonvisitor.com/jed-munson`,
 					date: `2022`
