@@ -22,6 +22,11 @@
 					title: `Silts [above/ground press]`,
 					url: `https://abovegroundpress.blogspot.com/2022/06/new-from-aboveground-press-silts-by-jed.html`,
 					date: '2022'
+				},
+				{
+					title: `Minesweeper [New Michigan Press / DIAGRAM, forthcoming]`,
+					url: `http://thediagram.com/contest.html`,
+					date: '2023'
 				}
 			]
 		},
