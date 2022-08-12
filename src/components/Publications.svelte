@@ -139,6 +139,11 @@
 			title: 'Reviews',
 			publications: [
 				{
+					title: `Nuclear Family by Joseph Han [Hyphen]`,
+					url: `https://hyphenmagazine.com/blog/2022/07/zones-explosion`,
+					date: `2022`
+				},
+				{
 					title: `Tastes Like War by Grace M. Cho [Full Stop]`,
 					url: `https://www.full-stop.net/2021/05/28/reviews/jed-munson/tastes-like-war-grace-m-cho/`,
 					date: `2021`
