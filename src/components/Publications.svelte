@@ -139,6 +139,11 @@
 			title: 'Reviews',
 			publications: [
 				{
+					title: `Plans for Sentences by Renee Gladman [Brooklyn Review]`,
+					url: `https://www.bkreview.org/poetry/a-review-of-renee-gladmans-plans-for-sentences/`,
+					date: `2022`
+				},
+				{
 					title: `Nuclear Family by Joseph Han [Hyphen]`,
 					url: `https://hyphenmagazine.com/blog/2022/07/zones-explosion`,
 					date: `2022`
