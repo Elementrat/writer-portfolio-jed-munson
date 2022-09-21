@@ -1,0 +1,34 @@
+name: Site Deploy
+
+# workflow triggers
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+# build process
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2.3.1
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: '14.x'
+    
+    - run: |
+        npm ci
+        npm run deploy
+
+    - name: Deploy 🚀
+      if: github.ref == 'refs/heads/source'
+      uses: JamesIves/github-pages-deploy-action@4.1.1
+      with:
+        branch: master
+        folder: public
+        clean: true

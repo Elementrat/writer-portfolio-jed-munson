@@ -54,16 +54,6 @@
 					date: `2022`
 				},
 				{
-					title: `Chinese Water Torture Cell & Others [Vestiges, forthcoming]`,
-					url: ``,
-					date: `2022`
-				},
-				{
-					title: `Continuously Variable Transmission & One Such Parochial View [Dream Pop Journal, forthcoming]`,
-					url: ``,
-					date: `2022`
-				},
-				{
 					title: `Two sonnets [Image Journal, forthcoming]`,
 					url: ``,
 					date: `2022`
