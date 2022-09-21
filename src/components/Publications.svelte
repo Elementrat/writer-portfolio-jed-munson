@@ -34,6 +34,21 @@
 			title: 'Poems',
 			publications: [
 				{
+					title: `Chinese Water Torture Cell & Others [Vestiges]`,
+					url: `https://blacksunlit.com/vestiges-06-aporia/`,
+					date: `2022`
+				},
+				{
+					title: `Continuously Variable Transmission & One Such Parochial View [Dream Pop Journal]`,
+					url: `https://www.dreampoppress.net/jed-munson/`,
+					date: `2022`
+				},
+				{
+					title: `Mouse on the Keys [periodicities: a journal of poetry and poetics]`,
+					url: `https://periodicityjournal.blogspot.com/2022/09/jed-munson-mouse-on-keys.html`,
+					date: `2022`
+				},
+				{
 					title: `Symposium in the Trees [Oxford Review of Books]`,
 					url: `https://www.the-orb.org/post/symposium-in-the-trees`,
 					date: `2022`
