@@ -5,43 +5,12 @@
 		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 		<link rel="icon" href="/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Jed Munson</title>
-
-		
-
-		<link rel="modulepreload" href="/_app/start-b76637df.js">
-		<link rel="modulepreload" href="/_app/chunks/vendor-a4ba40dc.js">
-		<link rel="modulepreload" href="/_app/layout.svelte-9ef34345.js">
-		<link rel="modulepreload" href="/_app/pages/index.svelte-d7b5eb7f.js">
-		<link rel="stylesheet" href="/_app/assets/start-61d1577b.css">
-		<link rel="stylesheet" href="/_app/assets/pages/index.svelte-00bdea6c.css">
-
-		<script type="module">
-			import { start } from "/_app/start-b76637df.js";
-			start({
-				target: document.body,
-				paths: {"base":"","assets":""},
-				session: {},
-				host: location.host,
-				route: true,
-				spa: false,
-				trailing_slash: "never",
-				hydrate: {
-					status: 200,
-					error: null,
-					nodes: [
-						import("/_app/layout.svelte-9ef34345.js"),
-						import("/_app/pages/index.svelte-d7b5eb7f.js")
-					],
-					page: {
-						host: location.host, // TODO this is redundant
-						path: "\u002F",
-						query: new URLSearchParams(""),
-						params: {}
-					}
-				}
-			});
-		</script>
+		<meta http-equiv="content-security-policy" content=""><title>Jed Munson</title>
+	<link rel="stylesheet" href="/_app/assets/pages/index.svelte-e20c84ee.css">
+	<link rel="modulepreload" href="/_app/start-336aea21.js">
+	<link rel="modulepreload" href="/_app/chunks/vendor-7cf2b5a7.js">
+	<link rel="modulepreload" href="/_app/layout.svelte-10076165.js">
+	<link rel="modulepreload" href="/_app/pages/index.svelte-a3ac77c9.js">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
 		integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 		<description>I'm a Korean American writer and editor from Wisconsin. I graduated from Wesleyan in 2019 and
@@ -83,9 +52,10 @@
 			</ul>
 	</section><section class="svelte-cthkyg"><h3 class="section-title">Poems</h3>
 		<h4>2022</h4>
-			<ul><li><a href="https://www.the-orb.org/post/symposium-in-the-trees" target="_blank">Symposium in the Trees [Oxford Review of Books]</a>
-					</li><li><a href="" target="_blank">Chinese Water Torture Cell &amp; Others [Vestiges, forthcoming]</a>
-					</li><li><a href="" target="_blank">Continuously Variable Transmission &amp; One Such Parochial View [Dream Pop Journal, forthcoming]</a>
+			<ul><li><a href="https://blacksunlit.com/vestiges-06-aporia/" target="_blank">Chinese Water Torture Cell &amp; Others [Vestiges]</a>
+					</li><li><a href="https://www.dreampoppress.net/jed-munson/" target="_blank">Continuously Variable Transmission &amp; One Such Parochial View [Dream Pop Journal]</a>
+					</li><li><a href="https://periodicityjournal.blogspot.com/2022/09/jed-munson-mouse-on-keys.html" target="_blank">Mouse on the Keys [periodicities: a journal of poetry and poetics]</a>
+					</li><li><a href="https://www.the-orb.org/post/symposium-in-the-trees" target="_blank">Symposium in the Trees [Oxford Review of Books]</a>
 					</li><li><a href="" target="_blank">Two sonnets [Image Journal, forthcoming]</a>
 					</li><li><a href="https://mitosmag.squarespace.com/aguas/nine-silts" target="_blank">Nine Silts [Mitos Magazín]</a>
 					</li><li><a href="https://annuletpoeticsjournal.com/Jed-Munson-from-Silts" target="_blank">Five Silts [Annulet: A Journal of Poetics]</a>
@@ -164,8 +134,26 @@
 </div></div>
 
 
-
-			
-		</div>
+		<script type="module" data-hydrate="gbfv6n">
+		import { start } from "/_app/start-336aea21.js";
+		start({
+			target: document.querySelector('[data-hydrate="gbfv6n"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/layout.svelte-10076165.js"),
+						import("/_app/pages/index.svelte-a3ac77c9.js")
+				],
+				url: new URL("http://sveltekit-prerender/"),
+				params: {}
+			}
+		});
+	</script></div>
 	</body>
 </html>
