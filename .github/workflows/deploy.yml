@@ -5,7 +5,7 @@ on:
   push:
     branches: [ master ]
   workflow_dispatch:
-  
+
 permissions:
   contents: write
 
@@ -23,6 +23,10 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '14.x'
+    - name: Auth
+      uses: oleksiyrudenko/gha-git-credentials@v2-latest
+      with:
+        token: '${{ secrets.GITHUB_TOKEN }}'
     
     - run: |
         npm ci
