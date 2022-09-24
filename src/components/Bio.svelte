@@ -31,7 +31,7 @@
 			target="_blank">The Brooklyn Review.</a
 		>
 
-		Always open to collaborations! :D
+		Always open to collaborations!
 	</div>
 </div>
 
