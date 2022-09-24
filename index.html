@@ -5,12 +5,43 @@
 		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 		<link rel="icon" href="/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta http-equiv="content-security-policy" content=""><title>Jed Munson</title>
-	<link rel="stylesheet" href="/_app/assets/pages/index.svelte-e20c84ee.css">
-	<link rel="modulepreload" href="/_app/start-7bb7caaf.js">
-	<link rel="modulepreload" href="/_app/chunks/vendor-7cf2b5a7.js">
-	<link rel="modulepreload" href="/_app/layout.svelte-10076165.js">
-	<link rel="modulepreload" href="/_app/pages/index.svelte-a3ac77c9.js">
+		<title>Jed Munson</title>
+
+		
+
+		<link rel="modulepreload" href="/_app/start-ea6b94e2.js">
+		<link rel="modulepreload" href="/_app/chunks/vendor-a4ba40dc.js">
+		<link rel="modulepreload" href="/_app/layout.svelte-9ef34345.js">
+		<link rel="modulepreload" href="/_app/pages/index.svelte-184546e8.js">
+		<link rel="stylesheet" href="/_app/assets/start-61d1577b.css">
+		<link rel="stylesheet" href="/_app/assets/pages/index.svelte-00bdea6c.css">
+
+		<script type="module">
+			import { start } from "/_app/start-ea6b94e2.js";
+			start({
+				target: document.body,
+				paths: {"base":"","assets":""},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/_app/layout.svelte-9ef34345.js"),
+						import("/_app/pages/index.svelte-184546e8.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "\u002F",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
 		integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 		<description></description>
@@ -132,26 +163,8 @@
 </div></div>
 
 
-		<script type="module" data-hydrate="gbfv6n">
-		import { start } from "/_app/start-7bb7caaf.js";
-		start({
-			target: document.querySelector('[data-hydrate="gbfv6n"]').parentNode,
-			paths: {"base":"","assets":""},
-			session: {},
-			route: true,
-			spa: false,
-			trailing_slash: "never",
-			hydrate: {
-				status: 200,
-				error: null,
-				nodes: [
-					import("/_app/layout.svelte-10076165.js"),
-						import("/_app/pages/index.svelte-a3ac77c9.js")
-				],
-				url: new URL("http://sveltekit-prerender/"),
-				params: {}
-			}
-		});
-	</script></div>
+
+			
+		</div>
 	</body>
 </html>
