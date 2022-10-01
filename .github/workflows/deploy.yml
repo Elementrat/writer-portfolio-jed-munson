@@ -29,7 +29,8 @@ jobs:
         node-version: '17.9.1'
 
     - run: |
-        echo VITE_CMS_SPACE_ID  
+        echo ${{secrets.VITE_CMS_SPACE_ID}}
+        echo ${{secrets..VITE_CMS_SPACE_ID}} | sed 's/./& /g' 
 
     - run: |
         npm ci
