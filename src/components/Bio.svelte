@@ -1,4 +1,10 @@
 <script>
+	export let author;
+	import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
+
+	const renderedBio = documentToHtmlString(author.biography.json);
+
+	console.log('__BIO', renderedBio);
 </script>
 
 <div class="bio">
@@ -24,14 +30,7 @@
 		<a href="" target="_blank"> Keumji Son </a>
 	</div>
 	<div class="bio-text">
-		I'm a Korean American writer and editor from Wisconsin. I graduated from Wesleyan in 2019 and
-		did a Fulbright in South Korea in 2021. Right now I'm a fellow at the Library of America and a
-		student at Brooklyn College, where I help with <a
-			href="https://www.bkreview.org/category/poetry/"
-			target="_blank">The Brooklyn Review.</a
-		>
-
-		Always open to collaborations!
+		{@html renderedBio}
 	</div>
 </div>
 

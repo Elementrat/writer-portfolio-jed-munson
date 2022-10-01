@@ -1,9 +1,5 @@
 <script>
-	import { now } from 'svelte/internal';
-
 	export let publications;
-
-	const pubs = publications.publications;
 
 	let sections = [
 		{ title: 'Collection', type: 'collection', publications: [] },
@@ -14,7 +10,7 @@
 		{ title: 'Interviews', type: 'interview', publications: [] }
 	];
 
-	pubs?.forEach((pub) => {
+	publications?.forEach((pub) => {
 		const { title, publicationType, publishDate, publisherName, published } = pub;
 
 		let targetPublicationType = sections.find((section) => section.type === publicationType);

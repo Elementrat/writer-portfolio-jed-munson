@@ -13,4 +13,13 @@ const getPublications  = gql `query {
   }
 }`
 
-export {getPublications};
+const getAuthor  = gql `query {
+  author(id:"4Rzhi8MJ9EHQngzcBjFStp"){
+    biography{
+      json
+    }
+    name
+  }
+}`
+
+export { getPublications, getAuthor };
