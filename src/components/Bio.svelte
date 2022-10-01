@@ -3,8 +3,6 @@
 	import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 
 	const renderedBio = documentToHtmlString(author.biography.json);
-
-	console.log('__BIO', renderedBio);
 </script>
 
 <div class="bio">
