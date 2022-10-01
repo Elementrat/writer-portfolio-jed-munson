@@ -9,7 +9,7 @@
 </script>
 
 <div class="app">
-	<Header />
+	<Header {author} />
 	<div class="primary">
 		<Publications {publications} />
 	</div>

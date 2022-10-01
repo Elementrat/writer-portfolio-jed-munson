@@ -1,9 +1,13 @@
+<script>
+	export let author;
+</script>
+
 <svelte:head>
-	<title>Jed Munson</title>
+	<title>{author.name}</title>
 </svelte:head>
 
 <div class="header">
-	<h1 class="name">Jed Munson</h1>
+	<h1 class="name">{author.name}</h1>
 </div>
 
 <style>
