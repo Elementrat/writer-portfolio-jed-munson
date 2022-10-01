@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+env:
+  VITE_CMS_SPACE_ID: ${{ secrets.VITE_CMS_SPACE_ID }}
+  VITE_CMS_TOKEN: ${{secrets.VITE_CMS_TOKEN}}
+
 # build process
 jobs:
   build:
@@ -23,11 +27,13 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '17.9.1'
+    - run: |
+        echo VITE_CMS_SPACE_ID  
   
     - run: |
         npm ci
         npm run build
-
+        
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.1
       with:
