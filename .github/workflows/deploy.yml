@@ -11,13 +11,14 @@ permissions:
 
 env:
   VITE_CMS_SPACE_ID: ${{ secrets.VITE_CMS_SPACE_ID }}
-  VITE_CMS_TOKEN: ${{secrets.VITE_CMS_TOKEN}}
+  VITE_CMS_TOKEN: ${{ secrets.VITE_CMS_TOKEN }}
 
 # build process
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    environment: build
 
     steps:
     - name: Checkout
