@@ -1,7 +1,7 @@
-// @ts-nocheck
-export const prerender = true;
 import cmsClient from '../util/cms'
 import { getPublications } from '../queries/gql'
+
+export const prerender = true;
 
 /** @type {import('./$types').PageLoad} */
 export async function load() {

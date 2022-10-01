@@ -111,6 +111,11 @@
     "esbuild" "^0.15.7"
     "set-cookie-parser" "^2.4.8"
 
+"@sveltejs/adapter-static@^1.0.0-next.43":
+  "integrity" "sha512-PAgSp1GA8HkYE4p30/sBvJme2nefhcTBJafqQdMNoUksWZF2WzuL8OEO8wa9ndE6cghcGk3j6Ve0Oskg/wtTOw=="
+  "resolved" "https://registry.npmjs.org/@sveltejs/adapter-static/-/adapter-static-1.0.0-next.43.tgz"
+  "version" "1.0.0-next.43"
+
 "@sveltejs/adapter-vercel@1.0.0-next.77":
   "integrity" "sha512-r4MqtP+lzx83HfcvI8PU0Yxzmxt6WQq9nzZETLboJouJzhSBUFIN5RmNZfEn6nNIlUwZbGQUEK/FxsRnnxI/Ig=="
   "resolved" "https://registry.npmjs.org/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.77.tgz"
