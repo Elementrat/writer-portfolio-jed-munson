@@ -11,12 +11,13 @@ export async function load() {
     })
     const { data } = publicationQueryResponse;
     const { publicationCollection } = data;
-    const { items: publications } = publicationCollection;
+    const { items : publications } = publicationCollection;
 
     return {
       publications
     };
   }
+
   catch(e){
     return {
       

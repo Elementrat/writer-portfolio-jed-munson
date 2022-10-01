@@ -1,8 +1,30 @@
 <script>
+	import { now } from 'svelte/internal';
+
 	export let publications;
 
-	console.log('__PUBS', publications);
+	const pubs = publications.publications;
 
+	let sections = [
+		{ title: 'Collection', type: 'collection', publications: [] },
+		{ title: 'Chapbooks', type: 'chapbook', publications: [] },
+		{ title: 'Poems', type: 'poem', publications: [] },
+		{ title: 'Essays', type: 'essay', publications: [] },
+		{ title: 'Reviews', type: 'review', publications: [] },
+		{ title: 'Interviews', type: 'interview', publications: [] }
+	];
+
+	pubs?.forEach((pub) => {
+		const { title, publicationType, publishDate, publisherName, published } = pub;
+
+		let targetPublicationType = sections.find((section) => section.type === publicationType);
+
+		if (targetPublicationType) {
+			targetPublicationType.publications.push(pub);
+		}
+	});
+
+	/*
 	let sections = [
 		{
 			title: 'Collection',
@@ -220,13 +242,17 @@
 			]
 		}
 	];
+  */
 
 	sections = sections.map((section) => {
-		const years = section.publications.reduce((acc, cur) => {
-			if (!acc[cur.date]) {
-				acc[cur.date] = [];
+		const years = section?.publications?.reduce?.((acc, cur) => {
+			const curPubDate = cur?.publishDate && new Date(cur?.publishDate);
+			const year = curPubDate?.getFullYear() || new Date(Date.now()).getFullYear();
+
+			if (!acc[year]) {
+				acc[year] = [];
 			}
-			acc[cur.date].push(cur);
+			acc[year].push(cur);
 			return acc;
 		}, {});
 
@@ -242,12 +268,21 @@
 		<h3 class="section-title">
 			{section.title}
 		</h3>
-		{#each Object.keys(section.years).sort((a, b) => Number(b) - Number(a)) as year}
+		{#each Object.keys(section.years)?.sort((a, b) => Number(b) - Number(a)) as year}
 			<h4>{year}</h4>
 			<ul>
 				{#each section.years[year] as publication}
 					<li>
-						<a href={publication.url} target="_blank">{publication.title}</a>
+						<a href={publication.url} target="_blank">
+							<span>{publication.title}</span>
+							{#if publication.publisherName}
+								<span>
+									[{publication.published
+										? `${publication.publisherName}]`
+										: `${publication.publisherName}, forthcoming]`}
+								</span>
+							{/if}
+						</a>
 					</li>
 				{/each}
 			</ul>

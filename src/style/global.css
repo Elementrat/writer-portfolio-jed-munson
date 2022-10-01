@@ -9,6 +9,10 @@ html{
   background-color: #eee;
 }
 
+a{
+  cursor: pointer;
+}
+
 body{
   margin: 0;
   font-family: 'Inter';
