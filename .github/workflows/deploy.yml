@@ -27,9 +27,10 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '17.9.1'
+
     - run: |
         echo VITE_CMS_SPACE_ID  
-  
+
     - run: |
         npm ci
         npm run build
