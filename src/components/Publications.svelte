@@ -1,4 +1,8 @@
 <script>
+	export let publications;
+
+	console.log('__PUBS', publications);
+
 	let sections = [
 		{
 			title: 'Collection',
