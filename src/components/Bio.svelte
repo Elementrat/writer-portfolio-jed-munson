@@ -7,7 +7,11 @@
 
 <div class="bio">
 	<!-- svelte-ignore a11y-missing-content -->
-	<a href="https://abovegroundpress.blogspot.com/" target="_blank" class="featured-image silts" />
+	<a
+		href="https://abovegroundpress.blogspot.com/2022/06/new-from-aboveground-press-silts-by-jed.html"
+		target="_blank"
+		class="featured-image silts"
+	/>
 
 	<div class="caption">Design by Kyuwon Kim</div>
 
@@ -19,13 +23,13 @@
 	/>
 	<div class="caption">
 		Design by
-		<a href="" target="_blank"> Ainee Jeong </a>
+		<a href="https://aineejeong.com/" target="_blank"> Ainee Jeong </a>
 	</div>
 
 	<div class="bio-image" alt="Jed Munson Profile" />
 	<div class="caption">
 		Photo by
-		<a href="" target="_blank"> Keumji Son </a>
+		<a> Keumji Son </a>
 	</div>
 	<div class="bio-text">
 		{@html renderedBio}
