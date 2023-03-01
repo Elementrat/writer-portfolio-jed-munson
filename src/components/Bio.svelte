@@ -7,11 +7,29 @@
 
 <div class="bio">
 	<!-- svelte-ignore a11y-missing-content -->
+	<a href="https://newmichiganpress.com/books.html">
+		<img
+			target="_blank"
+			class="featured-image minesweeper-cover"
+			src="src/img/minesweeper-cover.jpg"
+			alt="minesweeper cover"
+		/>
+	</a>
+
+	<div class="caption">Design by Ander Monson</div>
+
+	<!-- svelte-ignore a11y-missing-content -->
 	<a
 		href="https://abovegroundpress.blogspot.com/2022/06/new-from-aboveground-press-silts-by-jed.html"
 		target="_blank"
-		class="featured-image silts"
-	/>
+	>
+		<img
+			target="_blank"
+			class="featured-image silts-cover"
+			src="src/img/silts.png"
+			alt="silts cover"
+		/>
+	</a>
 
 	<div class="caption">Design by Kyuwon Kim</div>
 
@@ -19,8 +37,14 @@
 	<a
 		href="https://uglyducklingpresse.org/publications/newsflash-under-fire-over-the-shoulder/"
 		target="_blank"
-		class="featured-image"
-	/>
+	>
+		<img
+			target="_blank"
+			class="featured-image silts-cover"
+			src="src/img/newsflash-cover.jpg"
+			alt="silts cover"
+		/>
+	</a>
 	<div class="caption">
 		Design by
 		<a href="https://aineejeong.com/" target="_blank"> Ainee Jeong </a>
@@ -66,13 +90,8 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		width: 100%;
-		height: 470px;
 		max-width: 500px;
 		margin-top: 25px;
-	}
-
-	.silts {
-		background-image: url('../img/silts.png');
 	}
 
 	.caption {
