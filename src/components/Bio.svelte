@@ -11,7 +11,7 @@
 		<img
 			target="_blank"
 			class="featured-image minesweeper-cover"
-			src="src/img/minesweeper-cover.jpg"
+			src="/img/minesweeper-cover.jpg"
 			alt="minesweeper cover"
 		/>
 	</a>
@@ -26,7 +26,7 @@
 		<img
 			target="_blank"
 			class="featured-image silts-cover"
-			src="src/img/silts.png"
+			src="/img/silts.png"
 			alt="silts cover"
 		/>
 	</a>
@@ -41,7 +41,7 @@
 		<img
 			target="_blank"
 			class="featured-image silts-cover"
-			src="src/img/newsflash-cover.jpg"
+			src="/img/newsflash-cover.jpg"
 			alt="silts cover"
 		/>
 	</a>
@@ -65,7 +65,7 @@
 		display: flex;
 	}
 	.bio-image {
-		background-image: url('../img/jed_munson_profile.jpeg');
+		background-image: url('/img/jed_munson_profile.jpeg');
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-position: center;
@@ -85,7 +85,6 @@
 	}
 
 	.featured-image {
-		background-image: url('../img/newsflash-cover.jpg');
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;
