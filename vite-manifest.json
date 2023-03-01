@@ -11,17 +11,13 @@
     "file": "_app/immutable/assets/jed_munson_profile-fd8a017c.jpeg",
     "src": "src/img/jed_munson_profile.jpeg"
   },
-  "src/img/silts.png": {
-    "file": "_app/immutable/assets/silts-395b1d5f.png",
-    "src": "src/img/silts.png"
-  },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-a0cb53c9.js",
+    "file": "_app/immutable/start-d4601cf8.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-a663935b.js",
-      "_singletons-fce40ec6.js"
+      "_index-e12470f9.js",
+      "_singletons-2fd1475d.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
@@ -30,36 +26,35 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte": {
-    "file": "_app/immutable/components/layout.svelte-55785e4d.js",
+    "file": "_app/immutable/components/layout.svelte-9dcc218c.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index-a663935b.js"
+      "_index-e12470f9.js"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-ea79e8b1.js",
+    "file": "_app/immutable/components/error.svelte-307f2d36.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
-      "_index-a663935b.js",
-      "_singletons-fce40ec6.js"
+      "_index-e12470f9.js",
+      "_singletons-2fd1475d.js"
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-bb44f18d.js",
+    "file": "_app/immutable/components/pages/_page.svelte-0d0cae79.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-a663935b.js"
+      "_index-e12470f9.js"
     ],
     "css": [
-      "_app/immutable/assets/_page-6f2977c7.css"
+      "_app/immutable/assets/_page-584a5a77.css"
     ],
     "assets": [
       "_app/immutable/assets/jed_munson_profile-fd8a017c.jpeg",
       "_app/immutable/assets/newsflash-cover-9190f90c.jpg",
-      "_app/immutable/assets/silts-395b1d5f.png",
       "_app/immutable/assets/portfolio-pic-e464c7e1.jpg"
     ]
   },
@@ -79,14 +74,14 @@
       "__page-312f0c56.js"
     ]
   },
-  "_singletons-fce40ec6.js": {
-    "file": "_app/immutable/chunks/singletons-fce40ec6.js",
+  "_singletons-2fd1475d.js": {
+    "file": "_app/immutable/chunks/singletons-2fd1475d.js",
     "imports": [
-      "_index-a663935b.js"
+      "_index-e12470f9.js"
     ]
   },
-  "_index-a663935b.js": {
-    "file": "_app/immutable/chunks/index-a663935b.js"
+  "_index-e12470f9.js": {
+    "file": "_app/immutable/chunks/index-e12470f9.js"
   },
   "__layout-8d2a742b.js": {
     "file": "_app/immutable/chunks/_layout-8d2a742b.js"
@@ -95,7 +90,7 @@
     "file": "_app/immutable/chunks/_page-312f0c56.js"
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-404cf905.js",
+    "file": "_app/immutable/chunks/0-a1eecb77.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -104,7 +99,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-f8b8b623.js",
+    "file": "_app/immutable/chunks/1-36ad2e05.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -112,7 +107,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-881f43ea.js",
+    "file": "_app/immutable/chunks/2-4ede78e6.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
@@ -121,7 +116,7 @@
     ]
   },
   "src/routes/+page.css": {
-    "file": "_app/immutable/assets/_page-6f2977c7.css",
+    "file": "_app/immutable/assets/_page-584a5a77.css",
     "src": "src/routes/+page.css"
   }
 }
