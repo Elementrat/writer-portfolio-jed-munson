@@ -7,9 +7,8 @@
 
 <div class="bio">
 	<!-- svelte-ignore a11y-missing-content -->
-	<a href="https://newmichiganpress.com/books.html">
+	<a href="https://newmichiganpress.com/books.html" target="_blank">
 		<img
-			target="_blank"
 			class="featured-image minesweeper-cover"
 			src="/img/minesweeper-cover.jpg"
 			alt="minesweeper cover"
