@@ -11,7 +11,6 @@ export async function load() {
       query: getPublications
     })
 
-
     const { data: publicationData } = publicationQueryResponse;
     const { publicationCollection } = publicationData;
     const { items : publications } = publicationCollection;

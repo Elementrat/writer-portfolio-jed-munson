@@ -1,54 +1,13 @@
 <script>
 	export let author;
+
 	import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
+	import Featured from './Featured.svelte';
 
 	const renderedBio = documentToHtmlString(author.biography.json);
 </script>
 
 <div class="bio">
-	<!-- svelte-ignore a11y-missing-content -->
-	<a href="https://newmichiganpress.com/books.html" target="_blank">
-		<img
-			class="featured-image minesweeper-cover"
-			src="/img/minesweeper-cover.jpg"
-			alt="minesweeper cover"
-		/>
-	</a>
-
-	<div class="caption">Design by Ander Monson</div>
-
-	<!-- svelte-ignore a11y-missing-content -->
-	<a
-		href="https://abovegroundpress.blogspot.com/2022/06/new-from-aboveground-press-silts-by-jed.html"
-		target="_blank"
-	>
-		<img
-			target="_blank"
-			class="featured-image silts-cover"
-			src="/img/silts.png"
-			alt="silts cover"
-		/>
-	</a>
-
-	<div class="caption">Design by Kyuwon Kim</div>
-
-	<!-- svelte-ignore a11y-missing-content -->
-	<a
-		href="https://uglyducklingpresse.org/publications/newsflash-under-fire-over-the-shoulder/"
-		target="_blank"
-	>
-		<img
-			target="_blank"
-			class="featured-image silts-cover"
-			src="/img/newsflash-cover.jpg"
-			alt="silts cover"
-		/>
-	</a>
-	<div class="caption">
-		Design by
-		<a href="https://aineejeong.com/" target="_blank"> Ainee Jeong </a>
-	</div>
-
 	<div class="bio-image" alt="Jed Munson Profile" />
 	<div class="caption">
 		Photo by

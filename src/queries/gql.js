@@ -9,6 +9,14 @@ const getPublications  = gql `query {
       publisherName
       published
       url
+      featured
+      cover{
+        fileName
+        width
+        height
+        url
+        description
+      }
     }
   }
 }`
