@@ -56,6 +56,14 @@ this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names`):o
       publisherName
       published
       url
+      featured
+      cover{
+        fileName
+        width
+        height
+        url
+        description
+      }
     }
   }
 }`,Za=Wr`query {
