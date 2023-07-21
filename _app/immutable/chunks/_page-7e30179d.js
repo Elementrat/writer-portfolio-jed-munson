@@ -72,5 +72,12 @@ this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names`):o
       json
     }
     name
+    profilePic{
+      fileName
+      width
+      height
+      url
+      description
+    }
   }
 }`,eo=!0;async function to(){try{const r=await sr.query({query:Xa}),{data:e}=r,{publicationCollection:t}=e,{items:n}=t,i=await sr.query({query:Za}),{data:a}=i,{author:o}=a;return{publications:n,author:o}}catch{return{}}}const ro=Object.freeze(Object.defineProperty({__proto__:null,prerender:eo,load:to},Symbol.toStringTag,{value:"Module"}));export{ro as _,to as l,eo as p};
