@@ -27,6 +27,13 @@ const getAuthor  = gql `query {
       json
     }
     name
+    profilePic{
+      fileName
+      width
+      height
+      url
+      description
+    }
   }
 }`
 

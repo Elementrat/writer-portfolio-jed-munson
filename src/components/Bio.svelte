@@ -3,15 +3,13 @@
 
 	import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 	import Featured from './Featured.svelte';
-
 	const renderedBio = documentToHtmlString(author.biography.json);
 </script>
 
 <div class="bio">
-	<div class="bio-image" alt="Jed Munson Profile" />
+	<img class="featured-image" src={author?.profilePic?.url} alt="cover" />
 	<div class="caption">
-		Photo by
-		<a> Keumji Son </a>
+		{author?.profilePic?.description || ''}
 	</div>
 	<div class="bio-text">
 		{@html renderedBio}
